@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Odd and Even Numbers</title>
+</head>
+<body>
+<h2>Odd and Even Numbers from 1 to 50</h2>
+<?php
+function printEven($start, $end) {
+    echo "<h3>Even Numbers:</h3>";
+    for ($i = $start; $i <= $end; $i++) {
+        if ($i % 2 == 0) {
+            echo $i . " ";
+        }
+    }
+}
+function printOdd($start, $end) {
+    echo "<h3>Odd Numbers:</h3>";
+    for ($i = $start; $i <= $end; $i++) {
+        if ($i % 2 != 0) {
+            echo $i . " ";
+        }
+    }
+}
+printEven(1, 50);
+printOdd(1, 50);
+?></body>
+</html>
