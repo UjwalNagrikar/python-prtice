@@ -8,4 +8,4 @@ class student :
         print("Mark : ", self.mark)
 
 s1 = student("Ujwal", 85)
-s1.display()
+s1.display() 
